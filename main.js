@@ -3,10 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
     let totalEgresos = 0;
 
     function ValoresPorDefecto() {
-        document.getElementById('cantidadi').value = 1;
-        document.getElementById('cantidade').value = 0;
-        document.getElementById('ingreso').value = 0;
-        document.getElementById('egreso').value = 0;
         const hoy = new Date().toISOString().split('T')[0];
         const fechaInput = document.getElementById('fecha');
         if (fechaInput) {
